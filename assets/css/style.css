@@ -1,0 +1,57 @@
+/*---------------------------------------------------Header*/
+header {
+      margin: 0
+
+}
+
+.logo{
+    background: url(../images/ME.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+   padding: 0;
+   margin: 0;
+    transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    border-top-left-radius: 45px 40px;
+    border-top-right-radius: 45px 40px;
+    border-bottom-left-radius: 45px 40px;
+    border-bottom-right-radius: 45px 40px
+}
+
+.bg-color  {
+         background-color: #fff;
+}
+
+/*------------------------------------------------Grid*/
+
+.item1, .item5, .item7,.item11, .item16, .item15 {
+     background-color: #ef9d10;
+     height: 100px;
+}
+
+.item2, .item3, .item9,.item13, .item17, .item10 {
+     background-color: #3b4d61;
+}
+
+.item6, .item4, .item8,.item12, .item14, .item18{
+     background-color: #6b7b8c;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+ 
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
